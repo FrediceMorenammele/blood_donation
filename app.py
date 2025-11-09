@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load your trained model
-model = joblib.load('AI/donation_predictor.pkl')
+model = joblib.load('donation_predictor.pkl')
 
 app = Flask(__name__)
 
